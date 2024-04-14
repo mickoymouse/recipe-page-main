@@ -135,11 +135,15 @@ ol {
     }
 }
 
+section {
+    display: grid;
+    gap: 1.5rem;
+}
+
 .container {
     justify-items: center;
     background-color: var(--clr-white);
     display: grid;
-    gap: 1rem;
     min-width: 375px;
 
     @media screen and (min-width: 1024px) {
@@ -158,8 +162,8 @@ ol {
 
 .main {
     display: grid;
-    gap: 1rem;
-    padding: 2rem;
+    gap: 2rem;
+    padding: 2.5rem 2rem;
 }
 
 .recipe-name {
@@ -178,8 +182,9 @@ ol {
     border-radius: 1rem;
     line-height: 2rem;font-size: 1.25rem;
 
-    > p {
+    > h2 {
         color: var(--clr-raspberry-dark);
+        font-family: var(--ff-content);
         font-weight: var(--fw-bold);
     }
 }
