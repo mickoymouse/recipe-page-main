@@ -149,7 +149,7 @@ ol {
         overflow: hidden;
 
         > .banner {
-            margin: 2rem;
+            margin: 2rem 2rem 0 2rem;
             border-radius: 1rem;
             overflow: hidden;
         }
